@@ -1,4 +1,4 @@
-// 프로젝트: 스타워즈 스타일 TailwindCSS TODO LIST
+// 프로젝트: 우주 스타일 TailwindCSS TODO LIST
 // 주요 기능: 할 일 추가/삭제/완료, 날짜 지정, 전체 삭제, localStorage 저장
 // 리뷰 및 주요 주석 추가
 
@@ -124,7 +124,7 @@ renderTodos();
 
 /*
 [코드 리뷰]
-- UI/UX: TailwindCSS와 커스텀 폰트, 컬러로 스타워즈 분위기 구현. 반응형, 시각적 강조 우수.
+- UI/UX: TailwindCSS와 커스텀 폰트, 컬러로 우주 분위기 구현. 반응형, 시각적 강조 우수.
 - 기능: 할 일 추가/삭제/완료, 전체 삭제, 날짜 지정, localStorage 저장 등 실사용에 필요한 기능 충실.
 - 코드 구조: 함수 분리, 이벤트 위임, localStorage 활용 등 기본기 준수. 불필요한 반복 최소화.
 - 개선점: 

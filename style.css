@@ -1,21 +1,29 @@
-/* 스타워즈 스타일 폰트와 텍스트 효과 */
+/*
+  style.css - 우주 스타일 TODO LIST 커스텀 스타일
+  주요 역할: 폰트, 텍스트 효과, 배경 등 TailwindCSS로 커버되지 않는 부분 보완
+*/
+
+/* 구글 폰트(Orbitron) 임포트: 우주 느낌의 타이틀용 */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
-body {
-  background: linear-gradient(180deg, #211a1a 0%, #181818 60%, #23272f 100%);
-  min-height: 100vh;
-}
-
-.bg-gray-100 min-h-screen {
-    background-color: #697483;
-}
-
+/* 타이틀에 적용되는 폰트 및 텍스트 그림자 효과 */
 .starwars-title {
   font-family: 'Orbitron', Arial, sans-serif;
   letter-spacing: 0.2em;
   text-shadow: 0 0 10px #ffe81f, 0 0 20px #ffe81f, 0 0 40px #ffe81f;
 }
 
+/* 할 일 텍스트에 적용되는 노란 그림자 효과 */
 .starwars-shadow {
   text-shadow: 0 0 8px #ffe81f, 0 0 16px #ffe81f;
+}
+
+/* 전체 배경: 어두운 블랙~남색 계열 그라데이션으로 리스트와 어울리게 */
+body {
+  background: linear-gradient(180deg, #0a0a0a 0%, #181818 60%, #23272f 100%);
+  min-height: 100vh;
+}
+
+.bg-gray-100 min-h-screen {
+    background-color: #697483;
 }

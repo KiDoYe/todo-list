@@ -1,7 +1,7 @@
-# 코드 리뷰: 스타워즈 스타일 TailwindCSS TODO LIST
+# 코드 리뷰: 우주 스타일 TailwindCSS TODO LIST
 
 ## 1. UI/UX
-- TailwindCSS와 커스텀 폰트, 컬러를 활용해 스타워즈 분위기를 잘 살림.
+- TailwindCSS와 커스텀 폰트, 컬러를 활용해 우주 분위기를 잘 살림.
 - 반응형 레이아웃, 시각적 강조(노란색 포인트, 그림자 등) 우수.
 - 날짜 입력란, 전체 삭제 버튼 등 실사용에 필요한 UI 요소 충실.
 
