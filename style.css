@@ -1,0 +1,21 @@
+/* 스타워즈 스타일 폰트와 텍스트 효과 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+body {
+  background: linear-gradient(180deg, #211a1a 0%, #181818 60%, #23272f 100%);
+  min-height: 100vh;
+}
+
+.bg-gray-100 min-h-screen {
+    background-color: #697483;
+}
+
+.starwars-title {
+  font-family: 'Orbitron', Arial, sans-serif;
+  letter-spacing: 0.2em;
+  text-shadow: 0 0 10px #ffe81f, 0 0 20px #ffe81f, 0 0 40px #ffe81f;
+}
+
+.starwars-shadow {
+  text-shadow: 0 0 8px #ffe81f, 0 0 16px #ffe81f;
+}
